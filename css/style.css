@@ -7,6 +7,7 @@ html {
     font-size: 100%;
     margin: 10px;
     padding: 20px;
+    font-family: 'Atkinson Hyperlegible';
   }
   
   h1 {
@@ -16,12 +17,7 @@ html {
   
   p, div {
     font-size: 1.25em;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   
-  }
-
-  table {
-    border-color: black;
   }
 
   .footer {
@@ -29,10 +25,16 @@ html {
     left: 0;
     bottom: 0;
     width: 100%;
-    padding: 0px;
-    background-color: darksalmon;
+    padding: 2px;
+    background-color: rgb(118, 132, 255);
     color: white;
     text-align: center;
+  }
+
+  th {
+    border: 3px solid black;
+    text-align: center;
+    font-family: monospace;
   }
   
   /*
@@ -45,7 +47,7 @@ html {
   }
   
   a:visited {
-    color: #dd7cb1;
+    color: #7cdda8;
   }
   
   a:hover {
