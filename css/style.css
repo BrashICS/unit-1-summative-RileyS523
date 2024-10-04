@@ -1,0 +1,61 @@
+html {
+    min-height: 100vh;
+  }
+  
+  body {
+    background-image: linear-gradient(mediumpurple, purple);
+    font-size: 100%;
+    margin: 10px;
+    padding: 20px;
+    font-family: 'Atkinson Hyperlegible';
+  }
+  
+  h1 {
+    color:aliceblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  p, div {
+    font-size: 1.25em;
+    font-family: 'Atkinson Hyperlegible';
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 2px;
+    background-color: rgb(118, 132, 255);
+    color: white;
+    text-align: center;
+  }
+
+  th {
+    border: 3px solid black;
+    text-align: center;
+    font-family: monospace;
+  }
+  
+  /*
+    a:link - a normal, unvisited link
+    a:visited - a link the user has visited
+    a:hover - a link when the user mouses over it
+  */
+  a:link {
+    color:#7cdda8;
+  }
+  
+  a:visited {
+    color: #7cdda8;
+  }
+  
+  a:hover {
+    color: rgb(255, 115, 0);
+    font-size: 1.1em;
+  }
+  
+  a {
+    transition-duration: 0.5s;
+    transition-property: font-size, color;
+  }
